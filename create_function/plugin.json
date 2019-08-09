@@ -1,0 +1,22 @@
+[{
+    "author": "Your Name",
+    "version": "Your Version",
+    "name": "New OpenFaaS Project",
+    "url": "https://github.com/Codiad/Codiad-Plugin-Template",
+    "rightbar": [
+        {
+            "action": "codiad.ofcreate.create();",
+            "icon": "icon-rocket",
+            "title": "+OpenFaaS Project"
+        }
+    ],
+    "contextmenu": [
+        {
+            "action": "codiad.ofcreate.create();",
+            "icon": "icon-info-circled",
+            "applies-to": "both",
+            "title": "This will be displayed in the contextmenu"
+        }
+    ]
+}]
+
